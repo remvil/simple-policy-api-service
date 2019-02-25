@@ -1,0 +1,39 @@
+{
+    "name": "simple-policy-api-service",
+    "version": "1.0.0",
+    "description": "Simple API with Authentication and role based Authorization",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/remvil/simple-policy-api-service.git"
+    },
+    "keywords": [
+        "REST",
+        "API",
+        "node",
+        "services",
+        "policies",
+        "users",
+        "auth"
+    ],
+    "author": "Remigio Vildacci",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/remvil/simple-policy-api-service/issues"
+    },
+    "homepage": "https://github.com/remvil/simple-policy-api-service#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "config": "^3.0.1",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.5.0",
+        "lodash": "^4.17.11",
+        "node-fetch": "^2.3.0",
+        "routes": "^2.1.0",
+        "winston": "^2.4.4"
+    }
+}
